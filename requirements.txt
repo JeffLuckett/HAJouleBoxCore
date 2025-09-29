@@ -1,1 +1,2 @@
-placeholder: requirements.txt
+pytest
+pydantic

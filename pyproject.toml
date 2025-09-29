@@ -1,1 +1,16 @@
-placeholder: pyproject.toml
+[tool.poetry]
+name = "hajouleboxcore"
+version = "0.1.0"
+description = "Modular energy monitoring and normalization framework for Home Assistant"
+authors = ["Jeff Luckett <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

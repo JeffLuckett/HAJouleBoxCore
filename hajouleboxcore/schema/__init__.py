@@ -1,1 +1,1 @@
-placeholder: __init__.py
+# schema package init

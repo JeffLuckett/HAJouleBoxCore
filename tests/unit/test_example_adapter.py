@@ -1,1 +1,4 @@
-placeholder: test_example_adapter.py
+from adapters.example.adapter import parse
+
+def test_parse_empty_dict():
+    assert parse({}) == {}
